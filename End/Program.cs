@@ -50,6 +50,30 @@ namespace End
             //mini assignment
 
 
+           //Create a base class: Aircraft
+
+            //Create two other classes that inherit from Aircraft: Airplane; Helicoptor; 
+
+            //Aircraft should have a list of type aircraft that you can add planes and helicoptors to 
+
+            //They should all be able to make a sound when they take off EngineSound();
+
+            //They should all have a .ToString() override that lists information about the plane or helicoptor 
+
+            //Aircraft Fields/Props: Name, SpeedInKM, Year Produced 
+
+            //Aircraft other: List of aircrafts, ToStringOverride that writes the fields out, virtual method for EngineSound()
+
+            //Airplane Props field: NumberOfWings, 
+            //Constructor to initialize ALL FIELDS (even the inherited ones)
+            //unique EngineSound(); ToString that inherits the base class to string and adds Airplane specific fields
+
+            //Helicoptor: 
+            
+
+
+
+
 
         }
     }

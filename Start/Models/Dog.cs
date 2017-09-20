@@ -4,20 +4,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace End.Models
+namespace Start.Models
 {
-    class Mouse: Animal
+    class Dog : Animal
     {
-        public Mouse(string name) : base(name) { }
+        public Dog(string name) : base(name) { }
 
         public override string Speak()
         {
-            return "Squeek";
+            return "Woof";
         }
 
         public override string ToString()
         {
-            return $"I am a mouse and my name is {Name}";
+            return $"I am a dog and my name is {Name}";
         }
+
+        
     }
 }

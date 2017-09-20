@@ -42,12 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\Airplane.cs" />
     <Compile Include="Models\Animal.cs" />
     <Compile Include="Models\Cat.cs" />
     <Compile Include="Models\Dog.cs" />
-    <Compile Include="Models\Helicoptor.cs" />
-    <Compile Include="Models\Aircraft.cs" />
+    <Compile Include="Models\menuExample.cs" />
     <Compile Include="Models\Mouse.cs" />
     <Compile Include="Models\PetStore.cs" />
     <Compile Include="Models\Statics.cs" />

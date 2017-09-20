@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace End.Models
+namespace Start.Models
 {
     class Mouse: Animal
     {
@@ -12,7 +12,7 @@ namespace End.Models
 
         public override string Speak()
         {
-            return "Squeek";
+            return "Squeak";
         }
 
         public override string ToString()
